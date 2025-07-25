@@ -6,8 +6,9 @@ let board = ["", "", "", "", "", "", "", "", ""];
 let gameActive = true;
 
 document.getElementById("submit").addEventListener("click", () => {
-  player1 = document.getElementById("player-1").value;
-  player2 = document.getElementById("player-2").value;
+  player1 = document.getElementById("player1").value;
+player2 = document.getElementById("player2").value;
+
 
   if (player1 && player2) {
     document.getElementById("player-form").style.display = "none";
